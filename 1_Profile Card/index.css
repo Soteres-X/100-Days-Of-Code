@@ -21,12 +21,12 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 320px;
+    height: 350px;
     width: 250px;
     border-radius: 35px;
     padding: 30px;
     border: 5px solid rgb(163, 240, 240);
-    background: linear-gradient(to bottom , rgb(187, 255, 255), rgb(158, 226, 226));
+    background: white;
     box-shadow: 0px 2px 10px rgba(152, 187, 187, 0.506);
 }
 
@@ -51,6 +51,26 @@ body{
     gap: 10px;
 }
 
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 30px;
+    border-radius: 35px;
+    border: none;
+    background-color: #007382;
+    color: white;
+    cursor: default;
+    transition: 800ms;
+}
+
+.btn:hover{
+    width: 100%;
+    transition: 800ms;
+    background-color: #0096aa;
+}
+
 a{
    color: #007382; 
    text-decoration: none;
@@ -67,10 +87,16 @@ footer{
 }
 
 h1,h2,p{
+    font-family: 'Inter', sans-serif;
     margin: 0;
     text-align: center;
     color: rgb(0, 43, 69);
 }
+
+i,a{
+    font-family: 'Inter', sans-serif;
+}
+
 
 
 h2{
