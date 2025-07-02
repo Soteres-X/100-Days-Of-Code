@@ -11,5 +11,5 @@ This is a simple and responsive profile card built as part of my 100 Days of Cod
 - Hover effects on links/buttons
 - Fully functional and customizable
 
-⏱️ Time to complete: ~2 hours
+⏱️ Time to complete: ~2 hours  
 📅 Challenge Day: 1
