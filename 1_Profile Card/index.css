@@ -21,7 +21,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 350px;
+    height: 450px;
     width: 250px;
     border-radius: 35px;
     padding: 30px;
@@ -48,7 +48,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .btn{
@@ -79,6 +79,11 @@ a{
 .logo{
     border-radius: 50%;
     border: 2px solid rgb(0, 213, 255);
+}
+
+.socials{
+    display: flex;
+    gap: 10px;
 }
 
 footer{
