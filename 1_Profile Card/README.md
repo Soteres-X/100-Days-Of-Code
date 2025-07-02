@@ -3,9 +3,10 @@ This is a simple and responsive profile card. It features a clean design that in
 
 🔑 Key Features:
 
-Responsive design
-Clean layout using Flexbox or CSS Grid
-Hover effects on links/buttons
-Fully functional and customizable
+- Responsive design
+- Clean layout using Flexbox or CSS Grid
+- Hover effects on links/buttons
+- Fully functional and customizable
+- 
 ⏱️ Time to complete: ~2 hours  
 📅 Challenge Day: 1
