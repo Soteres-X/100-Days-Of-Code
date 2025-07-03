@@ -8,5 +8,5 @@ This is a static Add to Cart page layout built using HTML and CSS as part of my 
 - Cart section with placeholder values
 - Clean and responsive layout
 
-⏱️ Time to complete: ~2 hours
+⏱️ Time to complete: ~2 hours  
 📅 Challenge Day: 2
