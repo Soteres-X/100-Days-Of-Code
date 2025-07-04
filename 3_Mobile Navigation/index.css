@@ -1,0 +1,110 @@
+html{
+    background-color: rgb(224, 224, 224);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+h2,h3,p{
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    max-width: 414px;
+    min-height: 91.7vh;
+    border-radius: 40px;
+    box-shadow: 2px 2px 5px rgb(199, 199, 199),
+    -2px -2px 5px rgba(255, 255, 255, 0.623);
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.name_job{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+hr{
+    margin: 0;
+    width: 100%;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+    padding: 0;
+}
+
+.nav-element{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.nav-element h3{
+    font-size: 20px;
+}
+
+.arrow{
+    margin-left: auto;
+}
+
+.nav-element:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.137);
+}
+
+.icon{
+    background-color: rgba(187, 187, 187, 0.603);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.bottom-nav-list{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-top: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+svg{
+    width: 40px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.inactive{
+    opacity: 0.3;
+    transition: 800ms;
+}
+
+.inactive:hover{
+    opacity: 1;
+    transition: 800ms;
+}
+
+footer{
+    margin-top: auto;
+}

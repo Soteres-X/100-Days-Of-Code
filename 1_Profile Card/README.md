@@ -4,7 +4,7 @@ This is a simple and responsive profile card. It features a clean design that in
 🔑 Key Features:
 
 - Responsive design
-- Clean layout using Flexbox or CSS Grid
+- Clean layout using Flexbox
 - Hover effects on links/buttons
 - Fully functional and customizable
   
