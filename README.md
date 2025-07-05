@@ -12,3 +12,9 @@ HTML - CSS - Flexbox - Positioning - Styling Consistency.
 [Add To Card (Static](/2_Add%20To%20Cart/README.md)
 
 HTML - CSS - Flexbox - Positioning - Layout - Styling Constistency - Responsive Design - UI Design Basics
+
+# Day 3
+
+[Mobile Navigation Menu](/3_Mobile%20Navigation/README.md)
+
+HTML - CSS - Flexbox - Positioning - Layout - Styling Constistency - Responsive Design - Mobile-first design - UI Design Basics

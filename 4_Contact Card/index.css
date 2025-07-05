@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+}
+
+html{
+    background-color: rgb(24, 24, 24);
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    h1{
+        font-size: 4rem;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+    h1, p{
+        color: white;
+    }
+}
+
+body{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-image: url(./images/city2.webp); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-choice{
+    display: flex;
+    gap: 15px;
+}
+
+input, textarea{
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.089);
+}
+
+textarea{
+    height: 5em;
+    margin-bottom: 5em;
+}
+
+.submit{
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: rgb(223, 187, 31);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    top:0;
+    height: fit-content;
+    z-index: 1;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    width: 30vw;
+
+}
+
+@media screen and (max-width: 979px){
+    body{
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        gap: 40px;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .header{
+        margin-top: 2em;
+        align-items: center;
+        text-align: center;
+    }
+    .container{
+        width: 50vw;
+    }
+    textarea{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-height: 749px) and (max-width: 598px){
+    body{
+        height: fit-content;
+    }
+    .container{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-height: 1000px){
+    body{
+        justify-content: center;
+    }
+}
